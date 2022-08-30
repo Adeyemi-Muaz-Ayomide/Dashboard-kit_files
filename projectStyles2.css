@@ -1,0 +1,100 @@
+body{
+    background: rgb(54, 64, 90);
+    font-size: 15px;
+    color: lightgray;
+}
+#overall{
+    background-color: white;
+    /* text-align: center; */
+    padding: 30px;
+    border-radius: 10px;
+    margin: 60px;
+    
+}
+#overall1{
+    text-align: center;
+}
+#overall .first{
+    font-size: 20px;
+    color: lightgray;
+}
+#overall h3{
+    font-size: 22px;
+    padding: 10px 0px 0px 0px;
+    color: black;
+}
+#overall .second{
+    color: lightgray;
+}
+input[type=email]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+input[type=email]:focus{
+    color: black;
+    background-color: aliceblue
+}
+input[type=password]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+input[type=password]:focus{
+    color: black;
+    background-color: aliceblue;
+}
+span{
+    float: right;
+}
+span a:hover{
+    text-decoration: transparent;
+} 
+input[type=submit]{
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(130, 130, 219);
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color:  rgb(188, 188, 236);
+}
+#overall .third{
+    color: lightgray;
+    text-align: center;
+}
+p a:hover{
+    text-decoration: transparent;    
+}
+
+@media screen and (max-width: 960px){
+    body{
+        background-position: center center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    body{
+        background-position: center center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
